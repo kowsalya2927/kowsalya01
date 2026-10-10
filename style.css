@@ -1,0 +1,77 @@
+*{
+    background-color: silver;
+    color: black;
+    border-color: moccasin;
+    border-radius: 9px;
+    font-family: Arial sans-serif;
+    font-size: 18px;
+}
+.about, .career, .box{
+    border-style: solid;
+    background-color: lavender;
+    width: auto;
+    padding: 20px;
+    margin-left: 50px;
+    color: black;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+img{
+    width: 160px;
+    height: 160;
+}
+
+li{
+    background-color: lavender;
+    color: black;
+    line-height: normal;
+}
+ul{
+    background-color: lavender;
+    color: black;
+    
+}
+strong{
+    background-color: lavender;
+    color: blueviolet;
+}
+h3{
+    background-color: lavender;
+    color: black;
+    margin-left: 40px;
+}
+p{
+    background-color: lavender;
+    color: black;
+    margin-left: 70px;
+}
+
+a{
+    text-decoration: none;
+    background-color: lavender;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+@media (max-width: 600px){
+    .box, .about, .career {
+        margin: auto;
+        padding: 15px;
+        font-size: 20px;
+    }
+}
+button{
+    background-color: lightseagreen;
+    color: black;
+    border-color:black;
+}
+button:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
